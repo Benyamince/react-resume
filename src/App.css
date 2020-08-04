@@ -2,37 +2,155 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  position: fixed;
+  z-index: 999;
+  top: 1em;
+  left: 2px;
+}
+.nav_list {
+  list-style-type: none;
+  display: table;
+  margin: 1em auto;
+  font-size: 1em;
+  background-color: khaki;
+  font-family: "Lobster", cursive;
+}
+.nav_list:hover {
+  background-color: rgb(255, 242, 100);
+}
+.nav_link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Home {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3em;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(211, 210, 210);
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.Home_titles {
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Home_subtitles {
+  margin-bottom: 2em;
+}
+
+.Home_icons {
+  margin: 1em;
+}
+.Home_per_icons {
+  margin: 0 0.3em;
+}
+
+.About {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(187, 206, 195);
+  position: relative;
+}
+.About_TXT {
+  color: rgb(98, 98, 99);
+
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.About_title {
+  font-family: "Indie Flower", cursive;
+}
+.About_content {
+  line-height: 1.6em;
+  font-family: "Rajdhani", sans-serif;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(218, 204, 223);
+  position: relative;
+}
+
+.cards_subject {
+  font-family: "Lobster", cursive;
+  font-size: 1.6em;
+  padding: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 1.5em;
+  left: 47%;
+  right: 50%;
+}
+.Cards_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(218, 204, 223);
+}
+
+.Cards_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.Cards_icons {
+  width: 20%;
+}
+
+.Cards_titles {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 0.95em;
+}
+.down {
+  width: 30px;
+  position: absolute;
+  bottom: 1em;
+  text-decoration: none;
+}
+
+.down:hover {
+  border-radius: 100%;
+  background-color: rgb(231, 221, 221);
+  text-decoration: none;
+}
+
+.down_About {
+  width: 30px;
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  right: 50%;
+  text-decoration: none;
+}
+
+.down_About:hover {
+  border-radius: 100%;
+  background-color: rgb(176, 192, 183);
+  text-decoration: none;
 }

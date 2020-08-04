@@ -1,0 +1,58 @@
+{
+  "title": "I'm Benyamin",
+  "subtitle": "Front-End Developer",
+  "image": "./pic/html.png",
+  "icons": {
+    "linkedin": "https://linkedin.com/in/benyamince",
+    "telegram": "https://web.telegram.org/benyamice",
+    "github": "https://github.com/Benyaminnp"
+  },
+
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "content": "I Love IT things!, study Computer Engineering At IAUM and so enthusiastic for growing in my field and of course in life maybe!,but If I want to get out of this area and tell you about my hobbies,I love video games,listening to music and reading books and their whole worlds ... And I will be happy to see you there.You can connent with me on the social media that in my Home page"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "Card",
+          "Content": {
+            "image": "https://cdn1.iconfinder.com/data/icons/hawcons/32/699756-icon-11-file-html-512.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "Card",
+          "Content": {
+            "image": "https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-512.png",
+            "title": "JavaScript"
+          }
+        },
+        {
+          "type": "Card",
+          "Content": {
+            "image": "https://cdn1.iconfinder.com/data/icons/hawcons/32/699766-icon-12-file-css-512.png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "Card",
+          "Content": {
+            "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            "title": "React (familiar)"
+          }
+        }
+      ]
+    }
+  ],
+  "icon": {
+    "down": "https://image.flaticon.com/icons/svg/814/814031.svg",
+    "top": "https://www.hinsdaleortho.com/assets/images/icon-top.png"
+  }
+}
